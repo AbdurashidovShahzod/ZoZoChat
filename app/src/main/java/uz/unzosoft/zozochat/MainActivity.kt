@@ -1,8 +1,9 @@
-package com.plcoding.streamchatapp
+package uz.unzosoft.zozochat
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.plcoding.streamchatapp.databinding.ActivityMainBinding
+import com.unzosoft.zozochat.databinding.ActivityMainBinding
+
 
 class MainActivity : AppCompatActivity() {
 

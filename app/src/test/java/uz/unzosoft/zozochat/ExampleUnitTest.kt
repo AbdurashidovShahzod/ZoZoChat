@@ -1,4 +1,4 @@
-package com.plcoding.streamchatapp
+package uz.unzosoft.zozochat
 
 import org.junit.Test
 
