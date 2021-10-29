@@ -2,6 +2,7 @@
     <string name="app_name">ZoZoChat</string>
     <string name="api_key">gzjv5stmemw2</string>
     <string name="confirm">Confirm</string>
+    <string name="no_connect">No connect internet!!!</string>
     <string name="login">Login</string>
     <string name="your_name">Your name</string>
     <string name="username">Username</string>

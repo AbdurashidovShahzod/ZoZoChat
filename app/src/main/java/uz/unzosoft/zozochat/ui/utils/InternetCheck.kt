@@ -39,7 +39,6 @@ private fun Context.isAvailableNetwork(): Boolean {
                     ConnectivityManager.TYPE_ETHERNET -> true
                     else -> false
                 }
-
             }
         }
     }
