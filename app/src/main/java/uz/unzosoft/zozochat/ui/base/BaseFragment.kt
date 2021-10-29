@@ -1,4 +1,4 @@
-package uz.unzosoft.zozochat.ui
+package uz.unzosoft.zozochat.ui.base
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.viewbinding.ViewBinding
 
-abstract class BindingFragment<out T : ViewBinding> : Fragment() {
+abstract class BaseFragment<out T : ViewBinding> : Fragment() {
 
     private var _binding: ViewBinding? = null
     @Suppress("UNCHECKED_CAST")
