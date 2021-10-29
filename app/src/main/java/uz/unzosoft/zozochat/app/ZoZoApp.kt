@@ -28,5 +28,10 @@ class ZoZoApp : Application() {
             client,
             applicationContext
         ).build()
+        instance = this
+    }
+
+    companion object {
+        lateinit var instance: ZoZoApp
     }
 }
