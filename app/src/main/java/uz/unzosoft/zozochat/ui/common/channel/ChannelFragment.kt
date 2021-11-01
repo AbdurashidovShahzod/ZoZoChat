@@ -6,6 +6,7 @@ import android.view.View
 import androidx.fragment.app.viewModels
 import androidx.viewbinding.ViewBinding
 import com.unzosoft.zozochat.databinding.FragmentChannelBinding
+import dagger.hilt.android.AndroidEntryPoint
 import uz.unzosoft.zozochat.ui.base.BaseFragment
 
 
@@ -14,6 +15,7 @@ import uz.unzosoft.zozochat.ui.base.BaseFragment
  * company QQBank
  * shahzod9933@gmail.com
  */
+@AndroidEntryPoint
 class ChannelFragment : BaseFragment<FragmentChannelBinding>() {
     private val chatViewModel: ChannelViewModel by viewModels()
     override val inflaterBinding: (LayoutInflater) -> ViewBinding
@@ -21,7 +23,5 @@ class ChannelFragment : BaseFragment<FragmentChannelBinding>() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
     }
-
 }

@@ -9,5 +9,14 @@
         android:id="@+id/loginFragment"
         android:name="uz.unzosoft.zozochat.ui.common.login.LoginFragment"
         android:label="LoginFragment"
-        tools:layout="@layout/fragment_login" />
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_loginFragment_to_channelFragment"
+            app:destination="@id/channelFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/channelFragment"
+        android:name="uz.unzosoft.zozochat.ui.common.channel.ChannelFragment"
+        android:label="ChannelFragment"
+        tools:layout="@layout/fragment_channel" />
 </navigation>
